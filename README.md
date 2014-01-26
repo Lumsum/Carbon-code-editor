@@ -4,13 +4,14 @@ by <a target="_blank" href="https://plus.google.com/+SupakornSuttiruang/">Supako
 
 ![Carbon Code Editor Icon](http://s23.postimg.org/j4dv20gaz/Carbon.png)
 
-Current version : 1.1.5.1 <br>
+Current version : 1.1.5.1 <br><br>
 <a target="_blank" href="https://chrome.google.com/webstore/detail/carbon/ogdmgjcmmdooibjnpkhoeiahcdlepkce">![Get it now in CWS](https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_BadgeWBorder_v2_340x96.png "Get this app in the Chrome Web Store")</a>
 
 ======== Changelog ======== <br>
 * Version 1.1.5.1 Update : Saved/Unsaved Indicator bug fixed.
 * Version 1.1.5 Update : Saved/Unsaved Indicator included, Button fixes.
-* Version 1.1 Update : Huge UI changes and style fixes.
+* Version 1.1 Update : Huge UI changes and style fixes. 
+<br>===========================
 
 **Current features** :
 * Saved/Unsaved indicator (1.1.5)
