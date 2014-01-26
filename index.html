@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carbon Code Editor</title>
+<!--    Editor themes-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="theme/3024-day.css">
+    <link rel="stylesheet" href="theme/3024-night.css">
+    <link rel="stylesheet" href="theme/base16-dark.css">
+    <link rel="stylesheet" href="theme/base16-light.css">
+    <link rel="stylesheet" href="theme/blackboard.css">
+    <link rel="stylesheet" href="theme/cobalt.css">
+    <link rel="stylesheet" href="theme/eclipse.css">
+    <link rel="stylesheet" href="theme/elegant.css">
+    <link rel="stylesheet" href="theme/erlang-dark.css">
+    <link rel="stylesheet" href="theme/lesser-dark.css">
+    <link rel="stylesheet" href="theme/mbo.css">
+    <link rel="stylesheet" href="theme/midnight.css">
+    <link rel="stylesheet" href="theme/monokai.css">
+    <link rel="stylesheet" href="theme/neat.css">
+    <link rel="stylesheet" href="theme/night.css">
+    <link rel="stylesheet" href="theme/paraiso-dark.css">
+    <link rel="stylesheet" href="theme/paraiso-light.css">
+    <link rel="stylesheet" href="theme/rubyblue.css">
+    <link rel="stylesheet" href="theme/tomorrow-night-eighties.css">
+    <link rel="stylesheet" href="theme/xq-dark.css">
+    <link rel="stylesheet" href="theme/xq-light.css">
+  </head>
+  <body>    
+<div id="header">
+    <div class="info" style="font-size: 24px; font-family: 'open_sansbold';">
+      <label>File: </label><span id="title" style="font-family: 'open_sansregular';"></span><span id="ind" style="font-family: 'open_sansregular';"></span><br>
+      <label style="font-size: 18px;">language: </label ><span id="mode" style="font-size: 18px; font-family: 'open_sansitalic';"></span>
+    </div>
+    
+    <br>
+    
+    <div id="menu">
+        <button id="new">+ New</button>
+        <button id="open">● Open</button>    
+        <button id="save">✎ Save</button> │ 
+        <button id="lineNum" class="activated"># Line</button> Theme
+        <select id="themes">
+            <option value="3024-day">3024-day</option>
+            <option value="3024-night">3024-night</option>
+            <option value="base16-dark">base16-dark</option>
+            <option value="base16-light">base16-light</option>
+            <option value="blackboard">blackboard</option>
+            <option value="cobalt">cobalt</option>
+            <option value="eclipse">eclipse</option>
+            <option value="elegant">elegant</option>
+            <option value="erlang-dark">erlang-dark</option>
+            <option value="lesser-dark">lesser-dark</option>
+            <option value="mbo">mbo</option>
+            <option value="midnight">midnight</option>
+            <option selected value="monokai">monokai</option>
+            <option value="neat">neat</option>
+            <option value="night">night</option>
+            <option value="paraiso-dark">paraiso-dark</option>
+            <option value="paraiso-light">paraiso-light</option>
+            <option value="rubyblue">rubyblue</option>
+            <option value="tomorrow-night-eighties">tomorrow-night-eighties</option>
+            <option value="xq-dark">xq-dark</option>
+            <option value="xq-light">xq-light</option>
+        </select>
+    </div>
+    </div>
+    
+    <div id="editor"></div>
+    
+<!--    <textarea id="code" rows="20" cols="120" wrap="off"></textarea>-->
+    <script src="lib/codemirror.js"></script>
+<!--    Addons-->
+<!--    Addons-->
+    <link rel="stylesheet" href="lib/codemirror.css">
+<!--    Modes-->
+    <script src="mode/javascript/javascript.js"></script>
+    <script src="mode/vbscript/vbscript.js"></script>
+    <script src="mode/xml/xml.js"></script>
+    <script src="mode/htmlmixed/htmlmixed.js"></script>
+    <script src="mode/css/css.js"></script>
+    <script src="mode/python/python.js"></script>
+<!--    Modes-->
+     <script src="lib/app.js"></script>
+     <script src="lib/editor.js"></script>
+    
+  </body>
+</html>
