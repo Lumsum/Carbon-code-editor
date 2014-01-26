@@ -1,6 +1,6 @@
 ## Carbon
 ### A Code editor for web apps
-[by Supakorn "Lumsum" Suttiruang](https://plus.google.com/+SupakornSuttiruang/)
+by [Supakorn "Lumsum" Suttiruang](https://plus.google.com/+SupakornSuttiruang/)
 
 ![Carbon Code Editor Icon](http://s23.postimg.org/j4dv20gaz/Carbon.png)
 
