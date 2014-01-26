@@ -1,14 +1,17 @@
 ## Carbon
 ### A Code editor for web apps
 
-![Carbon Code Editor Icon](http://s28.postimg.org/rd4367agt/Carbon.png)
+![Carbon Code Editor Icon](http://s23.postimg.org/j4dv20gaz/Carbon.png)
 
-Current version : 1.1
-Coming soon to [Chrome Web Store](https://chrome.google.com/webstore)...
+Current version : 1.1.5 <br>
+<a target="_blank" href="https://chrome.google.com/webstore/detail/carbon/ogdmgjcmmdooibjnpkhoeiahcdlepkce">![Get it now in CWS](https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_BadgeWBorder_v2_340x96.png "Get this app in the Chrome Web Store")</a>
 
-Version 1.1 Update : Huge UI changes and style fixes.
+======== Changelog ======== <br>
+* Version 1.1.5 Update : Saved/Unsaved Indicator included, Button fixes.
+* Version 1.1 Update : Huge UI changes and style fixes.
 
 **Current features** :
+* Saved/Unsaved indicator (1.1.5)
 * Syntax highlighting backed by [CodeMirror](http://codemirror.net/)
 * Language (Mode) detection
 * Muti-window
