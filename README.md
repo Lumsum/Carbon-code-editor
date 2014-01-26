@@ -10,7 +10,7 @@ Current version : 1.1.5.1 <br><br>
 ======== Changelog ======== <br>
 * Version 1.1.5.1 Update : Saved/Unsaved Indicator bug fixed.
 * Version 1.1.5 Update : Saved/Unsaved Indicator included, Button fixes.
-* Version 1.1 Update : Huge UI changes and style fixes. 
+* Version 1.1 Update : Huge UI changes and style fixes. <br>
 ===========================
 
 **Current features** :
