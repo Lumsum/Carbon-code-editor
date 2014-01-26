@@ -2,7 +2,7 @@
 ### A Code editor for web apps
 by <a target="_blank" href="https://plus.google.com/+SupakornSuttiruang/">Supakorn "Lumsum" Suttiruang </a>
 
-![Carbon Code Editor Icon](http://s23.postimg.org/j4dv20gaz/Carbon.png)
+![Carbon Code Editor Icon](http://s23.postimg.org/j4dv20gaz/Carbon.png)<br>
 
 Current version : 1.1.5.1 <br><br>
 <a target="_blank" href="https://chrome.google.com/webstore/detail/carbon/ogdmgjcmmdooibjnpkhoeiahcdlepkce">![Get it now in CWS](https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_BadgeWBorder_v2_340x96.png "Get this app in the Chrome Web Store")</a>
