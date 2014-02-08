@@ -2,6 +2,8 @@
   <head>
     <meta charset="utf-8">
     <title>Carbon Code Editor</title>
+    <script src="lib/jquery-2.1.0.min.js"></script>
+    <script src="lib/mousetrap.min.js"></script>
 <!--    Editor themes-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
@@ -27,20 +29,24 @@
     <link rel="stylesheet" href="theme/xq-dark.css">
     <link rel="stylesheet" href="theme/xq-light.css">
   </head>
-  <body>    
-<div id="header">
-    <div class="info" style="font-size: 24px; font-family: 'open_sansbold';">
-      <label>File: </label><span id="title" style="font-family: 'open_sansregular';"></span><span id="ind" style="font-family: 'open_sansregular';"></span><br>
-      <label style="font-size: 18px;">language: </label ><span id="mode" style="font-size: 18px; font-family: 'open_sansitalic';"></span>
+  <body>
+    
+    <div id="head">
+    
+        <div id="menuBtn"><img src="icons/editor.png">Editor</div>
+        <div id="tabs">
+            <div class="tab"><span id="title"></span><br></div>
+        </div>
+        <div id="close">✖</div>
     </div>
     
-    <br>
-    
     <div id="menu">
-        <button id="new">+ New</button>
-        <button id="open">● Open</button>    
-        <button id="save">✎ Save</button> │ 
-        <button id="lineNum" class="activated"># Line</button> Theme
+        <div id="arrow"></div>
+        <div class="button" id="new"><img src="icons/new.png">&nbsp;&nbsp;New Window</div>
+        <div class="button" id="open"><img src="icons/open.png">&nbsp;&nbsp;Open File</div>    
+        <div class="button" id="save"><img src="icons/save.png">&nbsp;&nbsp;Save File</div> 
+        <div class="button" id="lineNum" class="activated">Line Number</div>
+        <br>
         <select id="themes">
             <option value="3024-day">3024-day</option>
             <option value="3024-night">3024-night</option>
@@ -65,7 +71,6 @@
             <option value="xq-light">xq-light</option>
         </select>
     </div>
-    </div>
     
     <div id="editor"></div>
     
@@ -84,6 +89,7 @@
 <!--    Modes-->
      <script src="lib/app.js"></script>
      <script src="lib/editor.js"></script>
+     <script src="lib/command.js"></script>
     
   </body>
 </html>
